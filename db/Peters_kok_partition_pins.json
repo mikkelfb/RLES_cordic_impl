@@ -2,7 +2,156 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "out_cos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out_cos[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out_sin[11]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "theta[11]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[10]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[9]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[8]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[7]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[6]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[5]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[4]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[3]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[2]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[1]",
+					"strict" : false
+				},
+				{
+					"name" : "theta[0]",
+					"strict" : false
+				}
+			]
 		}
 	]
 }

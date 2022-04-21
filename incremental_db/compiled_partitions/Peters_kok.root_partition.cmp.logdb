@@ -1,1 +1,4 @@
 v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,CE_end:ce10_end|multiIP:multi1|lpm_mult:lpm_mult_component|mult_b8n:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,CE_end:ce10_end|multiIP:multi2|lpm_mult:lpm_mult_component|mult_b8n:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,CE_end:ce10_end|multiIP:multi1|lpm_mult:lpm_mult_component|mult_b8n:auto_generated|mac_mult1,

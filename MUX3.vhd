@@ -21,7 +21,7 @@ begin
     Output <= 	A_in when "00",
 					B_in when "01",
 					C_in when "10",
-					(others => '0') when others; 
+					A_in when others; 
 	
 	
 end Behavioral;

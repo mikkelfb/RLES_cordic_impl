@@ -1,0 +1,385 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Code/RLES_cordic_impl/simulation/modelsim
+Eadderip
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+31
+Z3 !s110 1650569207
+!i10b 1
+Z4 w1650552375
+R0
+Z5 8C:/Code/RLES_cordic_impl/adderip.vhd
+Z6 FC:/Code/RLES_cordic_impl/adderip.vhd
+l0
+L43
+VciS:RRXZoC0aOgi<F5H@O2
+!s100 aE8>PzHFh9Mch06Y90_HO1
+Z7 OV;C;10.5b;63
+Z8 !s108 1650569207.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/adderip.vhd|
+Z10 !s107 C:/Code/RLES_cordic_impl/adderip.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Asyn
+R1
+R2
+DEx4 work 7 adderip 0 22 ciS:RRXZoC0aOgi<F5H@O2
+31
+R3
+!i10b 1
+l76
+L54
+VClngO@iF5J^:72>Pa`GR10
+!s100 gW7niH=Je`h=F2gYli4_W2
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ece
+Z13 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+31
+R3
+!i10b 1
+R4
+R0
+Z15 8C:/Code/RLES_cordic_impl/CE.vhd
+Z16 FC:/Code/RLES_cordic_impl/CE.vhd
+l0
+L7
+V]1XXn4f;AXU```dn5[?LP3
+!s100 F0[YBaLRD4fkfSOja9@MH2
+R7
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/CE.vhd|
+Z18 !s107 C:/Code/RLES_cordic_impl/CE.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R14
+R1
+R2
+DEx4 work 2 ce 0 22 ]1XXn4f;AXU```dn5[?LP3
+31
+R3
+!i10b 1
+l74
+L25
+V]elQkHH1zP7_GhN^43=W:3
+!s100 @Z@boD9^4:VZA@AjLY1Je3
+R7
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ece_end
+R13
+R14
+R1
+R2
+31
+R3
+!i10b 1
+Z19 w1650556356
+R0
+Z20 8C:/Code/RLES_cordic_impl/CE_end.vhd
+Z21 FC:/Code/RLES_cordic_impl/CE_end.vhd
+l0
+L7
+VlX?<bD26e:7^Ki;BP?j500
+!s100 O6]c`=eK>l`M;Da;Wb]LJ0
+R7
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/CE_end.vhd|
+Z23 !s107 C:/Code/RLES_cordic_impl/CE_end.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R14
+R1
+R2
+DEx4 work 6 ce_end 0 22 lX?<bD26e:7^Ki;BP?j500
+31
+R3
+!i10b 1
+l54
+L23
+VDZPYT^h>cCeJC?1NiFe^53
+!s100 LKW_oNC:b<We6ZVWBfK?N1
+R7
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Efsm
+R13
+R14
+R1
+R2
+31
+R3
+!i10b 1
+Z24 w1650558869
+R0
+Z25 8C:/Code/RLES_cordic_impl/FSM.vhd
+Z26 FC:/Code/RLES_cordic_impl/FSM.vhd
+l0
+L7
+VE15^aOVTMlakAakF]8@AC1
+!s100 <ITCB]Lme`>cN_6^Q`FD`0
+R7
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/FSM.vhd|
+Z28 !s107 C:/Code/RLES_cordic_impl/FSM.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R14
+R1
+R2
+DEx4 work 3 fsm 0 22 E15^aOVTMlakAakF]8@AC1
+31
+R3
+!i10b 1
+l55
+L51
+VF0H0hWzYnE@8aCDcbOZhm0
+!s100 ?gX3g6P?UE[=5ceUZEK6`1
+R7
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Emultiip
+R1
+R2
+31
+Z29 !s110 1650569208
+!i10b 1
+Z30 w1650555582
+R0
+Z31 8C:/Code/RLES_cordic_impl/multiIP.vhd
+Z32 FC:/Code/RLES_cordic_impl/multiIP.vhd
+l0
+L43
+V39hM?_]:Ad:2dCkBhF2;z3
+!s100 RD_@885TS49ZdG5^hADz]0
+R7
+Z33 !s108 1650569208.000000
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/multiIP.vhd|
+Z35 !s107 C:/Code/RLES_cordic_impl/multiIP.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 7 multiip 0 22 39hM?_]:Ad:2dCkBhF2;z3
+31
+R29
+!i10b 1
+l75
+L53
+V:oZbd@WCVkB1mT7bLVdiN0
+!s100 B_`=e[VL=AzG?5<:l8U3n0
+R7
+R33
+R34
+R35
+!i113 1
+R11
+R12
+Emux2
+R13
+R14
+R1
+R2
+31
+R3
+!i10b 1
+Z36 w1650567304
+R0
+Z37 8C:/Code/RLES_cordic_impl/MUX2.vhd
+Z38 FC:/Code/RLES_cordic_impl/MUX2.vhd
+l0
+L7
+VjnL12eP`2DMn@07Me1ho61
+!s100 ;>HNImnkSjn832?ENIbXi0
+R7
+R8
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/MUX2.vhd|
+Z40 !s107 C:/Code/RLES_cordic_impl/MUX2.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R14
+R1
+R2
+DEx4 work 4 mux2 0 22 jnL12eP`2DMn@07Me1ho61
+31
+R3
+!i10b 1
+l18
+L17
+V[Xog;f]1hA::5O`jk0c;=0
+!s100 U?7ZNM^9McC[e_40=S[Tl1
+R7
+R8
+R39
+R40
+!i113 1
+R11
+R12
+Emux3
+R13
+R14
+R1
+R2
+31
+R3
+!i10b 1
+Z41 w1650567372
+R0
+Z42 8C:/Code/RLES_cordic_impl/MUX3.vhd
+Z43 FC:/Code/RLES_cordic_impl/MUX3.vhd
+l0
+L7
+VGmIl9[W:<9:3=Lo2R:;o42
+!s100 fjLca<823N:a]XcBXRJ]X3
+R7
+R8
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/MUX3.vhd|
+Z45 !s107 C:/Code/RLES_cordic_impl/MUX3.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R14
+R1
+R2
+DEx4 work 4 mux3 0 22 GmIl9[W:<9:3=Lo2R:;o42
+31
+R3
+!i10b 1
+l19
+L18
+V_CzF2g=C>2jBJjSXjYh6;0
+!s100 N9IROGCNIhOHR3Rz[m=K62
+R7
+R8
+R44
+R45
+!i113 1
+R11
+R12
+Eshifterip
+R1
+R2
+31
+R3
+!i10b 1
+R4
+R0
+Z46 8C:/Code/RLES_cordic_impl/shifterIP.vhd
+Z47 FC:/Code/RLES_cordic_impl/shifterIP.vhd
+l0
+L43
+V@nT2]zRYU:?2NcB?jE6:V0
+!s100 W15EbOXn8BzI=UlZSfME[0
+R7
+R8
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/shifterIP.vhd|
+Z49 !s107 C:/Code/RLES_cordic_impl/shifterIP.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 9 shifterip 0 22 @nT2]zRYU:?2NcB?jE6:V0
+31
+R3
+!i10b 1
+l75
+L53
+VVhc>E9DGSbB;igPdM9;Az1
+!s100 `bI8GIbm`E8O1kT:2J0JJ2
+R7
+R8
+R48
+R49
+!i113 1
+R11
+R12
+Etop_module
+R13
+R14
+R1
+R2
+31
+R3
+!i10b 1
+Z50 w1650569129
+R0
+Z51 8C:/Code/RLES_cordic_impl/TOP_module.vhd
+Z52 FC:/Code/RLES_cordic_impl/TOP_module.vhd
+l0
+L6
+VJHo1]@>nm[KaV2@a<]<Eb3
+!s100 IdeQM3g<mfoWcXO=S8WzH3
+R7
+R8
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Code/RLES_cordic_impl/TOP_module.vhd|
+Z54 !s107 C:/Code/RLES_cordic_impl/TOP_module.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R14
+R1
+R2
+DEx4 work 10 top_module 0 22 JHo1]@>nm[KaV2@a<]<Eb3
+31
+R3
+!i10b 1
+l213
+L14
+V817oD<Hj>B8P:TWI53hJA0
+!s100 NV@WQiJNCZdhfaDnR?GbM2
+R7
+R8
+R53
+R54
+!i113 1
+R11
+R12

@@ -1,20 +1,16 @@
-Fitter Status : Successful - Thu Apr 21 10:27:37 2022
+Fitter Status : Successful - Thu Apr 21 21:25:58 2022
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : Peters_kok
-Top-level Entity Name : CE
-Family : Cyclone V
-Device : 5CGXFC7C7F23C8
+Top-level Entity Name : TOP_MODULE
+Family : Cyclone IV E
+Device : EP4CE6E22C6
 Timing Models : Final
-Logic utilization (in ALMs) : 1 / 56,480 ( < 1 % )
-Total registers : 0
-Total pins : 92 / 268 ( 34 % )
+Total logic elements : 646 / 6,272 ( 10 % )
+    Total combinational functions : 561 / 6,272 ( 9 % )
+    Dedicated logic registers : 474 / 6,272 ( 8 % )
+Total registers : 474
+Total pins : 37 / 92 ( 40 % )
 Total virtual pins : 0
-Total block memory bits : 0 / 7,024,640 ( 0 % )
-Total RAM Blocks : 0 / 686 ( 0 % )
-Total DSP Blocks : 0 / 156 ( 0 % )
-Total HSSI RX PCSs : 0 / 6 ( 0 % )
-Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
-Total HSSI TX PCSs : 0 / 6 ( 0 % )
-Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
-Total PLLs : 0 / 13 ( 0 % )
-Total DLLs : 0 / 4 ( 0 % )
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 4 / 30 ( 13 % )
+Total PLLs : 0 / 2 ( 0 % )

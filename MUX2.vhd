@@ -16,7 +16,8 @@ end MUX2;
 
 architecture Behavioral of MUX2 is
 begin
-	with cs select
-    Output <= 	A_in when '0',
-					B_in when '1';
+	with cs select Output <= 	
+					A_in when '0',
+					B_in when '1',
+					A_in when others;
 end Behavioral;

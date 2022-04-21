@@ -1,0 +1,6 @@
+
+State Machine - |TOP_MODULE|FSM:fsm0|current_state
+Name current_state.S3 current_state.S2 current_state.S1 
+current_state.S1 0 0 0 
+current_state.S2 0 1 1 
+current_state.S3 1 0 1 

@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+
+entity ADDER is
+	port(
+		cs : in std_logic;
+		A_in : in std_logic_vector(11 downto 0);
+		B_in : in std_logic_vector(11 downto 0);
+		Output : out std_logic_vector(11 downto 0)
+	);
+end ADDER;
+
+
+architecture Behavioral of ADDER is
+begin
+	process(cs,A_in,B_in,Output)
+	if(cs = '1') then
+		Output<= std_logic_vector(signed(A_in)-signed(B_in));
+	else 
+		Output<= std_logic_vector(signed(A_in)+signed(B_in));
+	end;
+	
+	end process
+	
+end Behavioral;

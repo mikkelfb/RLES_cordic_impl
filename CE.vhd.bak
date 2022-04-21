@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+
+entity CE is
+   port( X_in : in std_logic_vector(11 downto 0);
+			Y_in : in std_logic_vector(11 downto 0);
+			Z_in : in std_logic_vector(11 downto 0);
+			const : in std_logic_vector(11 downto 0);
+			cs_mux_1 : in std_logic_vector(1 downto 0);
+			cs_mux_2 : in std_logic;
+			cs_mux_3 : in std_logic_vector(1 downto 0);
+			cs_reg1_write : in std_logic;
+			cs_reg2_write : in std_logic;
+			cs_ALU : in std_logic;
+			X_out : out std_logic_vector(11 downto 0);
+			Y_out : out std_logic_vector(11 downto 0);
+			Z_out : out std_logic_vector(11 downto 0);
+	);
+end CE;
+
+
+architecture Behavioral of CE is
+begin
+	
+	
+	
+	
+
+
+end Behavioral;

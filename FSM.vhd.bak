@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+
+entity FSM is
+	port(
+		clk : in std_logic_vector(1 downto 0);
+		Z_in : in std_logic_vector(11 downto 0);
+		
+		
+		
+	);
+end FSM;
+
+
+architecture Behavioral of FSM is
+begin
+	with cs select
+    Output <= 	A_in when "00",
+					B_in when "01",
+					C_in when "10",
+					(others => '0') when others; 
+	
+	
+end Behavioral;

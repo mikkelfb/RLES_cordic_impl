@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+
+entity MUX3
+	port(
+		cs : in std_logic_vector(1 downto 0);
+		A_in : in std_logic_vector(11 downto 0);
+		B_in : in std_logic_vector(11 downto 0);
+		C_in : in std_logic_vector(11 downto 0);
+		Output : out std_logic_vector(11 downto 0);
+	)
+end MUX
+
+
+architecture Behavioral of MUX3 is
+	with cs select
+    Output <= 	A_in when '00',
+					B_in when '01',
+					C_in when '10',
+					(others => '0') when others; 
+	
+	
+end Behavioral;
